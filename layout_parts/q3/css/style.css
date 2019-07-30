@@ -1,5 +1,28 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.eat_table{
+  width: 100%;
+  table-layout: fixed;
+}
 
+.eat_table *{
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #dedede;
+  margin: 0 auto;
+}
+
+.caption th,td:first-child{
+  background: #2244aa;
+  color: white;
+}
+
+.eat_table tr:nth-child(odd){
+  background: #ecf1f2;
+}
+
+.eat_table tr:last-child{
+  border-top: 2px dashed #000;
+}
 /* 回答はここに書いてね */

@@ -2,4 +2,83 @@
 
 /* 回答はここに書いてね */
 
+/* 左右中央寄せ */
+.inner_box{
+  text-align: center;
+}
+
+.text_align_box .inner_text{
+  display: inline-block;
+}
+
+.inner_text{
+  width: 90px;
+  padding: 10px 0px;
+  background: #e6f2ff;
+}
+
+.margin_box .inner_text{
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* 天地左右中央寄せ */
+/* table */
+.is-table{
+  display: table;
+  text-align: center;
+}
+
+.is-table_c{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.table_text{
+  display: inline-block;
+  padding: 10px;
+  background: #fff;
+}
+
+/* flex */
+.is-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex_text{
+  padding: 10px;
+  background: #fff;
+}
+
+/* position固定 */
+.fixed_box{
+  position: relative;
+}
+
+.fixed_potision{
+  width: 110px;
+  height: 30px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+/* position可変 */
+.flexble_box{
+  position: relative;
+}
+
+.flexible_text{
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%)
+  translateX(-50%);
+}
 /* 回答はここに書いてね */

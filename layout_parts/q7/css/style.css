@@ -1,5 +1,109 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+body{
+  font-size: 16px;
+  word-break: keep-all;
+}
+
+/* flatでの横並び */
+.clear_fix::after{
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.text_box{
+  width: 225px;
+  box-sizing: border-box;
+}
+
+.left_box{
+  float: left;
+  margin-right: 50px;
+}
+
+.right_box{
+  float: right;
+}
+
+/* tableでの横並び */
+.table_box{
+  display: table;
+  position: relative;
+}
+
+.is-c_table{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.right_content{
+  padding-left: 50px;
+}
+
+.content{
+  width: 225px;
+  box-sizing: border-box;
+}
+
+/* inline-blockでの横並び */
+.q7_3_contents{
+  font-size: 0px;
+}
+.q7_3_left_side{
+  font-size: 16px;
+  width: 225px;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.q7_3_right_side{
+  font-size: 16px;
+  width: 225px;
+  margin-left: 50px;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+/* flexでの横並び */
+.q7_4_inner{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.q7_4_box{
+  width: 225px;
+  box-sizing: border-box;
+  /* margin:auto; */
+}
+
+/* inlineblockとmarginでの横並び */
+.q7_5_inner{
+  font-size: 0;
+}
+
+.q7_5_left{
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+  font-size: 16px;
+}
+
+.q7_5_right{
+  width: 100%;
+  display: inline-block;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+
+
 
 /* 回答はここに書いてね */

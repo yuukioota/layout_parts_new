@@ -1,5 +1,289 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+/* Q1 */
+.q8_btn{
+  display: inline-block;
+  color: #fff;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.q8_btn:first-of-type{
+  margin-left: -10px;
+}
+.q8_btn:last-of-type{
+  color: #222;
+}
 
+.small{
+  font-size: 16px;
+  border-radius: 3px;
+  padding: 0px 15px;
+  line-height: 26px;
+}
+
+.middle{
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 0px 20px;
+  line-height: 32px;
+}
+
+.large{
+  font-size: 24px;
+  border-radius: 7px;
+  padding: 0px 25px;
+  line-height: 38px;
+}
+
+.common{
+  background: #00bcd4;
+}
+
+.error{
+  background: #ff4081;
+}
+
+.disabled{
+  background: #e5e5e5;
+  cursor: default;
+}
+
+.shadow{
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .12),
+  0 1px 4px rgba(0, 0, 0, .12);
+}
+
+/* Q2 */
+.q8_form{
+  width: 700px;
+  margin: 0 auto;
+  background: #ECF1F2;
+  padding: 20px;
+}
+
+.form_title{
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.form_title::before{
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #CCC;
+}
+
+.form_title_text{
+  position: relative;
+  font-size: 24px;
+  font-weight: bold;
+  display: inline-block;
+  padding-right: 10px;
+  background-color: #ECF1F2;
+}
+
+.q8_input_box:focus{
+  box-shadow: 0 0 7px #00BCD4;
+}
+
+.q8_label {
+  cursor: pointer;
+}
+
+.radio_text{
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+}
+
+.radio_text::before{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  margin-top: -8px;
+  background: #fff;
+  border:1px solid #ccc;
+  content: "";
+}
+
+.q8_input_radio_box:checked + .radio_text::after{
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  border-radius: 50%;
+  background: #00BCD4;
+  content: "";
+}
+
+.main{
+  float: left;
+  width: 300px;
+}
+
+.main_items{
+  margin-bottom: 20px;
+}
+
+.q8_form_init,
+.q8_hometown{
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.main_items li{
+  margin-top: 20px;
+}
+
+.main_items li:first-child{
+  margin-top: 0px;
+}
+
+.clearfix::after{
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.item_title{
+  width: 100px;
+  float: left;
+  line-height: 25px;
+  text-align: right;
+}
+
+.required_item{
+  color: #F00;
+}
+.content{
+  float: right;
+  width: 180px;
+}
+
+.q8_input_box{
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background: #FFF;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+}
+
+.q8_input_radio_box{
+  display: none;
+}
+
+.q8_select{
+  position: relative;
+}
+
+.q8_select::after{
+  display: block;
+  position: absolute;
+  top:4px;
+  right: 10px;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #E5E5E5;
+  border-bottom: 2px solid #E5E5E5;
+  transform: rotate(45deg);
+  content: "";
+  pointer-events: none;
+}
+
+.q8_hometown{
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background: #FFF;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+  cursor: pointer;
+  /* position: relative; */
+}
+
+.q8_checkbox{
+  text-align: right;
+}
+
+.q8_checkbox_text{
+  position: relative;
+  display: inline-block;
+  padding-left: 24px;
+}
+
+.q8_checkbox_text::before{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  margin-top: -9px;
+  background-color: #FFF;
+  border: 1px solid #ccc;
+  content: "";
+}
+
+.q8_checkbox_btn:checked + .q8_checkbox_text::after{
+  position: absolute;
+  top: 50%;
+  left: 6px;
+  width: 8px;
+  height: 16px;
+  margin-top: -14px;
+  border-right: 3px solid #00BCD4;
+  border-bottom: 3px solid #00BCD4;
+  transform: rotate(45deg);
+  content: "";
+}
+
+.q8_checkbox_btn{
+  display: none;
+}
+
+.main_bottom{
+  text-align: right;
+}
+.main_bottom_btn{
+  padding: 0 10px;
+  border-radius: 5px;
+  background: #00BCD4;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.message_area{
+  float: right;
+  width: 380px;
+}
+
+.message_text{
+  width: 100%;
+  height: 203px;
+  padding: 10px;
+  border-radius: 3px;
+  background: #FFF;
+  line-height: 125%;
+  font-size: 12px;
+  box-sizing: border-box;
+  resize: none;
+}
 /* 回答はここに書いてね */

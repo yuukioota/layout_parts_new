@@ -1,5 +1,98 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.contents{
+  background: #ecf1f2;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  font-weight: bold;
+  font-size: 30px;
+}
 
+.content_box{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.beige{
+  background: #ffefd3;
+  position: absolute;
+  top: 40px;
+  left: 200px;
+  z-index: 30;
+}
+
+.purple{
+  background: #7084de;
+  position: absolute;
+  top:120px;
+  left: 280px;
+  z-index: 40;
+}
+
+.light_blue{
+  background: #d0ecea;
+  position: absolute;
+  top: 200px;
+  left: 360px;
+  z-index: 50;
+}
+
+.dark_brown{
+  background: #8b7a5e;
+  position: absolute;
+  top: 280px;
+  left: 280px;
+  z-index: 60;
+}
+
+.turquoise{
+  background: #9fd6d2;
+  position: absolute;
+  top: 360px;
+  left: 200px;
+  z-index: 70;
+}
+
+.light_yellow{
+  background: #fffee4;
+  position: absolute;
+  top: 280px;
+  left: 120px;
+  z-index: 80;
+}
+
+.brown{
+  background: #deae70;
+  position: absolute;
+  top: 200px;
+  left: 40px;
+  z-index: 90;
+}
+
+.pink{
+  background: #de70cf;
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  z-index: 100;
+}
+.pink::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: #ffefd3;
+  position: absolute;
+  top: 0px;
+  left: 80px;
+}
+.mid_blue{
+  background: #2b69a3;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
 /* 回答はここに書いてね */

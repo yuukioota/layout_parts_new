@@ -1,5 +1,52 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q4_table{
+  padding: 20px;
+}
+
+.dtable{
+  width: 100%;
+  display: table;
+  margin: 0 auto;
+}
+
+.dtable_c{
+  display: table-cell;
+  padding: 20px;
+  text-align: center;
+}
+
+.beige{
+  width: 100px;
+  background: #fdc8b8;
+}
+
+.pink{
+  background: #e0abd9;
+}
+
+.blue{
+  width: 100px;
+  background: #b6d8ed;
+}
+
+.second{
+  margin-top: 20px;
+}
+.yellow{
+  background: #e5d32e;
+}
+
+.red{
+  background: #ec8f9a;
+}
+
+.green{
+  width: 500px;
+  background: #8fdcad;
+}
+
+
 
 /* 回答はここに書いてね */
