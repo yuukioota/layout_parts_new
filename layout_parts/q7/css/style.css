@@ -18,12 +18,12 @@ body{
   box-sizing: border-box;
 }
 
-.left_box{
+.q7__1_box:first-child{
   float: left;
   margin-right: 50px;
 }
 
-.right_box{
+.q7__1_box:last-child{
   float: right;
 }
 
@@ -38,7 +38,7 @@ body{
   vertical-align: middle;
 }
 
-.right_content{
+.q7__2_content:last-child{
   padding-left: 50px;
 }
 
@@ -51,7 +51,7 @@ body{
 .q7_3_contents{
   font-size: 0px;
 }
-.q7_3_left_side{
+.q7_3_side:first-child{
   font-size: 16px;
   width: 225px;
   box-sizing: border-box;
@@ -59,7 +59,7 @@ body{
   vertical-align: middle;
 }
 
-.q7_3_right_side{
+.q7_3_side:last-child{
   font-size: 16px;
   width: 225px;
   margin-left: 50px;
