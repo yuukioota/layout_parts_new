@@ -31,9 +31,10 @@
   background: #b6d8ed;
 }
 
-.second{
+.dtable:last-child{
   margin-top: 20px;
 }
+
 .yellow{
   background: #e5d32e;
 }

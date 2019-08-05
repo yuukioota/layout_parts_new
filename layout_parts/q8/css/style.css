@@ -270,6 +270,11 @@
   line-height: 26px;
 }
 
+.main_bottom_btn:active{
+  background: #FFF;
+  color: #00BCD4;
+}
+
 .message_area{
   float: right;
   width: 380px;

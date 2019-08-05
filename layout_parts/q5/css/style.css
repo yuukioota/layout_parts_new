@@ -11,15 +11,15 @@
 }
 
 .content_box{
-  width: 100px;
   height: 100px;
-  text-align: center;
   line-height: 100px;
+  position: absolute;
+  text-align: center;
+  width: 100px;
 }
 
 .beige{
   background: #ffefd3;
-  position: absolute;
   top: 40px;
   left: 200px;
   z-index: 30;
@@ -27,7 +27,6 @@
 
 .purple{
   background: #7084de;
-  position: absolute;
   top:120px;
   left: 280px;
   z-index: 40;
@@ -35,7 +34,6 @@
 
 .light_blue{
   background: #d0ecea;
-  position: absolute;
   top: 200px;
   left: 360px;
   z-index: 50;
@@ -43,7 +41,6 @@
 
 .dark_brown{
   background: #8b7a5e;
-  position: absolute;
   top: 280px;
   left: 280px;
   z-index: 60;
@@ -51,7 +48,6 @@
 
 .turquoise{
   background: #9fd6d2;
-  position: absolute;
   top: 360px;
   left: 200px;
   z-index: 70;
@@ -59,7 +55,6 @@
 
 .light_yellow{
   background: #fffee4;
-  position: absolute;
   top: 280px;
   left: 120px;
   z-index: 80;
@@ -67,7 +62,6 @@
 
 .brown{
   background: #deae70;
-  position: absolute;
   top: 200px;
   left: 40px;
   z-index: 90;
@@ -75,7 +69,6 @@
 
 .pink{
   background: #de70cf;
-  position: absolute;
   top: 120px;
   left: 120px;
   z-index: 100;
