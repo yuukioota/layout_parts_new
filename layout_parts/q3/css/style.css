@@ -4,6 +4,7 @@
 .q3_table{
   width: 100%;
   table-layout: fixed;
+  border-collapse: collapse ;
 }
 
 /* .q3_table *{
@@ -40,7 +41,8 @@
   background: #ecf1f2;
 }
 
-.q3_table tr:last-child{
+.q3_table tfoot th,
+.q3_table tfoot td{
   border-top: 2px dashed #000;
 }
 /* 回答はここに書いてね */
